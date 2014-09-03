@@ -19,7 +19,7 @@
 							<goal>updates</goal>
 						</goals>
 						<configuration>
-							<appbase>http://myserver.com/getdown</appbase>
+							<appbase>http://www.myserver.com/myapp/getdown</appbase>
 							<libPath>lib</libPath>
 							<mainClass>org.icestuff.getdown.maven.examples.MyApp</mainClass>
 							<outputJarVersions>false</outputJarVersions>
