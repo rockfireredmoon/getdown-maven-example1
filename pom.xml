@@ -3,15 +3,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>getdown-maven-example1</artifactId>
 	<name>Getdown Maven Example 1</name>
-	<description>Simples Example POM, builds update directory and manifest</description>
+	<description>Simple Example POM, builds update directory and manifest</description>
 	<groupId>org.icestuff</groupId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.icestuff</groupId>
 				<artifactId>getdown-maven-plugin</artifactId>
-				<version>0.0.1-SNAPSHOT</version>
+				<version>0.0.2-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
@@ -48,8 +48,8 @@
 	</build>
 	<pluginRepositories>
 		<pluginRepository>
-			<id>taw-repo</id>
-			<url>http://files.theanubianwar.com/maven/snapshots/</url>
+			<id>getdown-maven-github-repo</id>
+			<url>https://raw.githubusercontent.com/rockfireredmoon/getdown-maven-plugin/mvn-repo/</url>
 			<snapshots>
 				<enabled>true</enabled>
 				<updatePolicy>always</updatePolicy>
