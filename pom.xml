@@ -5,13 +5,13 @@
 	<name>Getdown Maven Example 1</name>
 	<description>Simple Example POM, builds update directory and manifest</description>
 	<groupId>org.icestuff</groupId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.9.0-SNAPSHOT</version>
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.icestuff</groupId>
 				<artifactId>getdown-maven-plugin</artifactId>
-				<version>0.0.3-SNAPSHOT</version>
+				<version>0.9.0-SNAPSHOT</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
